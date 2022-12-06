@@ -16,5 +16,10 @@ for i in range(len(list)):
         highest = list[i]
 print(highest)
 
+list.sort(reverse = True)
+
+bigsum = list[0] + list[1] + list[2]
+
+print(bigsum)
     
         
